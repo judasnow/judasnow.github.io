@@ -1,0 +1,25 @@
+{
+    "name": "judasnow.github.io",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "docs:dev": "npx vuepress dev docs",
+        "docs:build": "npx vuepress build docs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/judasnow/judasnow.github.io.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/judasnow/judasnow.github.io/issues"
+    },
+    "homepage": "https://github.com/judasnow/judasnow.github.io#readme",
+    "dependencies": {
+        "lodash": "^4.17.15",
+        "vuepress": "^1.4.0",
+        "vuepress-bar": "^0.2.7"
+    }
+}
